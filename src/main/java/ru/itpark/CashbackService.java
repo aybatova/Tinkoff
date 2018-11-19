@@ -7,10 +7,7 @@ public class CashbackService {
     int categoryPriorityPercent = 5;
     int categorySuperPersent = 30;
     int resultLimit = 3000;
-    int resultCommon;
-
-
-    resultCommon = (sumCategorySimple + sumCategoryPriority * categoryPriorityPercent + sumCategorySuper * categorySuperPersent) / 100;
+    int resultCommon = (sumCategorySimple + sumCategoryPriority * categoryPriorityPercent + sumCategorySuper * categorySuperPersent) / 100;
 
 
     if (resultCommon < resultLimit) {
